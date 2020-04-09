@@ -140,7 +140,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ManageEmailsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -182,6 +184,11 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Account\SuccessRegister.cshtml" />
+    <Content Include="Views\ManageEmails\ActivationEmail.cshtml" />
+    <Content Include="Views\Account\ActiveUser.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -204,6 +211,10 @@
     <ProjectReference Include="..\DataLayer\DataLayer.csproj">
       <Project>{847a19eb-e23f-4467-a090-52a29b1f2c70}</Project>
       <Name>DataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{594b9a89-35ab-4ff8-b3c8-50a996534a39}</Project>
+      <Name>Utilities</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

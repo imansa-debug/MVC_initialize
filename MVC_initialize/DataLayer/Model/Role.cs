@@ -11,6 +11,8 @@ namespace DataLayer.Model
     {
         public byte Id { get; set; }
         public string RoleName { get; set; }
+        public string RoleDescription{ get; set; }
+
 
     }
 }

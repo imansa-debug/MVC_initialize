@@ -89,3 +89,5 @@ F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\DataLaye
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\DataLayer.dll.config
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\EntityFramework.xml
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\EntityFramework.SqlServer.xml
+F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\Utilities.dll
+F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\Utilities.pdb
