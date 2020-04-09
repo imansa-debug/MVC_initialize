@@ -6,10 +6,11 @@ F:\Projects\C#projects\MVC_Initialize\MVC_initialize\DataLayer\bin\Debug\EntityF
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\DataLayer\bin\Debug\EntityFramework.xml
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\DataLayer\obj\Debug\DataLayer.csprojAssemblyReference.cache
+F:\Projects\C#projects\MVC_Initialize\MVC_initialize\DataLayer\obj\Debug\DataLayer.Migrations.InitialMigration.resources
+F:\Projects\C#projects\MVC_Initialize\MVC_initialize\DataLayer\obj\Debug\DataLayer.Migrations.AddRoleDescriptionToRole.resources
+F:\Projects\C#projects\MVC_Initialize\MVC_initialize\DataLayer\obj\Debug\DataLayer.Migrations.AddRolestoRoleTable.resources
+F:\Projects\C#projects\MVC_Initialize\MVC_initialize\DataLayer\obj\Debug\DataLayer.csproj.GenerateResource.cache
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\DataLayer\obj\Debug\DataLayer.dll
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\DataLayer\obj\Debug\DataLayer.pdb
-F:\Projects\C#projects\MVC_Initialize\MVC_initialize\DataLayer\obj\Debug\DataLayer.Migrations.InitialMigration.resources
-F:\Projects\C#projects\MVC_Initialize\MVC_initialize\DataLayer\obj\Debug\DataLayer.csproj.GenerateResource.cache
-F:\Projects\C#projects\MVC_Initialize\MVC_initialize\DataLayer\obj\Debug\DataLayer.Migrations.AddRoleDescriptionToRole.resources
-F:\Projects\C#projects\MVC_Initialize\MVC_initialize\DataLayer\obj\Debug\DataLayer.Migrations.AddRolestoRoleTable.resources
+F:\Projects\C#projects\MVC_Initialize\MVC_initialize\DataLayer\obj\Debug\DataLayer.Migrations.addUserRelationTable.resources

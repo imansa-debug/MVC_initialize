@@ -17,3 +17,7 @@ F:\Projects\C#projects\MVC_Initialize\MVC_initialize\Utilities\obj\Debug\Utiliti
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\Utilities\obj\Debug\Utilities.csproj.CopyComplete
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\Utilities\obj\Debug\Utilities.dll
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\Utilities\obj\Debug\Utilities.pdb
+F:\Projects\C#projects\MVC_Initialize\MVC_initialize\Utilities\bin\Debug\EntityFramework.dll
+F:\Projects\C#projects\MVC_Initialize\MVC_initialize\Utilities\bin\Debug\Microsoft.AspNet.Membership.OpenAuth.dll
+F:\Projects\C#projects\MVC_Initialize\MVC_initialize\Utilities\bin\Debug\EntityFramework.xml
+F:\Projects\C#projects\MVC_Initialize\MVC_initialize\Utilities\bin\Debug\Microsoft.AspNet.Membership.OpenAuth.xml

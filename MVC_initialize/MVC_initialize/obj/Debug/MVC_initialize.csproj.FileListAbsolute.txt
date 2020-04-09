@@ -51,6 +51,9 @@ F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\roslyn\v
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\roslyn\VBCSCompiler.exe
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\roslyn\VBCSCompiler.exe.config
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\Antlr3.Runtime.dll
+F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\DataLayer.dll
+F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\EntityFramework.dll
+F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\EntityFramework.SqlServer.dll
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\Microsoft.Web.Infrastructure.dll
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\Newtonsoft.Json.dll
@@ -65,6 +68,10 @@ F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\System.W
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\System.Web.WebPages.dll
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\System.Web.WebPages.Razor.dll
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\WebGrease.dll
+F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\DataLayer.pdb
+F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\DataLayer.dll.config
+F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\EntityFramework.xml
+F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\EntityFramework.SqlServer.xml
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\System.Web.Helpers.xml
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\System.Web.Mvc.xml
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\System.Web.Optimization.xml
@@ -82,12 +89,3 @@ F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\obj\Debug\MV
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\obj\Debug\MVC_initialize.csproj.CopyComplete
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\obj\Debug\MVC_initialize.dll
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\obj\Debug\MVC_initialize.pdb
-F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\DataLayer.dll
-F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\EntityFramework.dll
-F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\EntityFramework.SqlServer.dll
-F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\DataLayer.pdb
-F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\DataLayer.dll.config
-F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\EntityFramework.xml
-F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\EntityFramework.SqlServer.xml
-F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\Utilities.dll
-F:\Projects\C#projects\MVC_Initialize\MVC_initialize\MVC_initialize\bin\Utilities.pdb

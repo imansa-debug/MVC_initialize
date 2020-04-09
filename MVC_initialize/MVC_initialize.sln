@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_initialize", "MVC_initi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{847A19EB-E23F-4467-A090-52A29B1F2C70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{594B9A89-35AB-4FF8-B3C8-50A996534A39}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{847A19EB-E23F-4467-A090-52A29B1F2C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{847A19EB-E23F-4467-A090-52A29B1F2C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{847A19EB-E23F-4467-A090-52A29B1F2C70}.Release|Any CPU.Build.0 = Release|Any CPU
-		{594B9A89-35AB-4FF8-B3C8-50A996534A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{594B9A89-35AB-4FF8-B3C8-50A996534A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{594B9A89-35AB-4FF8-B3C8-50A996534A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{594B9A89-35AB-4FF8-B3C8-50A996534A39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

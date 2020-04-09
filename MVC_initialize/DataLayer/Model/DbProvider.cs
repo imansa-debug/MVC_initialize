@@ -16,6 +16,7 @@ namespace DataLayer.Model
 
         public DbSet<Users> Users { get; set; }
         public DbSet<Role> Roles{ get; set; }
+        public DbSet<UserAndRoleRealation> UserAndRoleRealations { get; set; }
 
     }
 }

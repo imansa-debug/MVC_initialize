@@ -92,7 +92,7 @@ namespace MVC_initialize.Controllers
         }
         [HttpPost]
         [Route("Login")]
-        public ActionResult Login(LoginViewModel login)
+        public ActionResult Login(LoginViewModel login,string ReturnUrl="/")
         {
             if (ModelState.IsValid)
             {
@@ -103,7 +103,7 @@ namespace MVC_initialize.Controllers
                     if (user.IsActive)
                     {
                         FormsAuthentication.SetAuthCookie(user.UserName, login.RememberMe);
-                        return Redirect("/");
+                        return Redirect(ReturnUrl);
                     }
                     else
                     {

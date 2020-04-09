@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using DataLayer.Model;
 
 namespace MVC_initialize.Controllers
 {
@@ -12,14 +13,14 @@ namespace MVC_initialize.Controllers
         {
             return View();
         }
-
+        [Authorize(Roles="about,admin")]
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
-
+        [Authorize(Roles = "contact")]
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
