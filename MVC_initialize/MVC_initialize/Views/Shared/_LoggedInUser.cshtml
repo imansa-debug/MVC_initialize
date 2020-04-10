@@ -1,7 +1,11 @@
-﻿@if (User.Identity.IsAuthenticated)
+﻿@using System.Configuration
+
+@if (User.Identity.IsAuthenticated)
 {
     <li><a href="#"> <i class="glyphicon glyphicon-user"><label>@User.Identity.Name</label></i></a></li>
-    <li>@Html.ActionLink("Log Off", "LogOff", "Account")</li>
+    
+    <li><a href="@ConfigurationManager.AppSettings["MyDomain"]/logout"> <i class="glyphicon glyphicon-log-out"><label>Logout</label></i></a></li>
+
 
 
 }

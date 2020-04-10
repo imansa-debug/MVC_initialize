@@ -28,9 +28,19 @@ namespace DataLayer.Services
             return db.Users.SingleOrDefault(u => u.ActiveCode == activationCode);
         }
 
+        public Users getUserByEmail(string email)
+        {
+            return db.Users.SingleOrDefault(u => u.Email == email);
+        }
+
         public Users getUserByEmailAndHashedPassword(string email, string hashedPassword)
         {
             return db.Users.SingleOrDefault(u => u.Email == email && u.Password==hashedPassword);
+        }
+
+        public Users getUserUserName(string username)
+        {
+            return db.Users.Single(u => u.UserName == username);
         }
 
         public bool isExistEmail(string email)

@@ -14,3 +14,4 @@ F:\Projects\C#projects\MVC_Initialize\MVC_initialize\DataLayer\obj\Debug\DataLay
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\DataLayer\obj\Debug\DataLayer.dll
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\DataLayer\obj\Debug\DataLayer.pdb
 F:\Projects\C#projects\MVC_Initialize\MVC_initialize\DataLayer\obj\Debug\DataLayer.Migrations.addUserRelationTable.resources
+F:\Projects\C#projects\MVC_Initialize\MVC_initialize\DataLayer\obj\Debug\DataLayer.Migrations.addUserRelationTable2.resources

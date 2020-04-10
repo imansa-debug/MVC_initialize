@@ -118,11 +118,72 @@ namespace MVC_initialize.Controllers
 
             return View(login);
         }
-
+        [Route("LogOut")]
         public ActionResult LogOff()
         {
             FormsAuthentication.SignOut();
             return Redirect("/");
         }
+        [Route("ForgotPassword")]
+        public ActionResult ForgotPassword()
+        {
+           
+            return View();
+        }
+
+        [Route("ForgotPassword")]
+        [HttpPost]
+        public ActionResult ForgotPassword(ForgotPasswordViewModel forgot)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = db.AccountRepository.getUserByEmail(forgot.Email);
+                if (user != null)
+                {
+                    if (user.IsActive)
+                    {
+                        IGmailSender emailSender = new SendMail();
+                        string bodyEmail =
+                            PartialToStringClass.RenderPartialView("ManageEmails", "RecoveryPassword", user);
+                        emailSender.SendGmail(user.Email, "بازیابی کلمه عبور", bodyEmail);
+                        return View("SuccessForgotPassword", user);
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("Email", "حساب کاربری شما فعال نیست");
+                    }
+                }
+                else
+                {
+                    ModelState.AddModelError("Email", "کاربری یافت نشد");
+                }
+            }
+            return View();
+        }
+
+        public ActionResult RecoveryPassword(string id)
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult RecoveryPassword(string id, RecoveryPasswordViewModel recovery)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = db.AccountRepository.getUserByActivationCode(id);
+                if (user == null)
+                {
+                    return HttpNotFound();
+                }
+
+                user.Password = FormsAuthentication.HashPasswordForStoringInConfigFile(recovery.Password, "MD5");
+                user.ActiveCode = Guid.NewGuid().ToString();
+                db.Save();
+                return Redirect("/Login?recovery=true");
+            }
+            return View();
+        }
+
     }
 }

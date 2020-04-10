@@ -22,6 +22,9 @@ namespace MVC_initialize.Controllers
 
             return PartialView();
         }
-
+        public ActionResult RecoveryPassword()
+        {
+            return PartialView();
+        }
     }
 }

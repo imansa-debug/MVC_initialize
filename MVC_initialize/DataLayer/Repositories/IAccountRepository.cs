@@ -7,7 +7,7 @@ using DataLayer.Model;
 
 namespace DataLayer.Repositories
 {
-    public interface IAccountRepository:IRegister,IUser,ILogin
+    public interface IAccountRepository:IRegister,IUser,ILogin,IForgetPassword, IChangePassword
     {
     }
 
@@ -26,10 +26,18 @@ namespace DataLayer.Repositories
     public interface ILogin
     {
         Users getUserByEmailAndHashedPassword(string email, string hashedPassword);
+        
     }
     public interface IForgetPassword
     {
-       
+        Users getUserByEmail(string email);
+         
+    }
+
+    public interface IChangePassword
+    {
+        Users getUserUserName(string username);
+
     }
 
 }
