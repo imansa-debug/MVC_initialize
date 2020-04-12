@@ -21,6 +21,12 @@ namespace MVC_initialize.Areas.Admin.Controllers
             return View(users.ToList());
         }
 
+        public ActionResult List()
+        {
+            var users = db.Users.Include(u => u.Roles);
+            var userslist = users.ToList();
+            return PartialView(userslist);
+        }
         // GET: Admin/Users/Details/5
         public ActionResult Details(int? id)
         {

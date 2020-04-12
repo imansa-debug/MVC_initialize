@@ -9,7 +9,9 @@ namespace MVC_initialize
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
+                        "~/Scripts/jquery-{version}.js", 
+                        "~/Scripts/datatables/jquery.datatables.js",
+                        "~/Scripts/datatables/datatables.bootstrap.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));
@@ -24,7 +26,18 @@ namespace MVC_initialize
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/datatables/css/datatables.bootstrap4.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/Admin/bootstrap").Include(
+                "~/content/Admin/js/bootstrap.js",
+                "~/content/Admin/js/popper.js",
+                "~/content/Admin/js/script.js"));
+
+            bundles.Add(new ScriptBundle("~/Content/Admin/bootstrap").Include(
+                "~/content/Admin/css/bootstrap.css",
+                "~/content/Admin/css/fontiran.css",
+                "~/content/Admin/css/fontstyle.css"));
         }
     }
 }
